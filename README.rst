@@ -46,3 +46,12 @@ Status
   is not working with it yet.
 - Multiple controllers can be supported by placing a shaperest in front of each
   controller or in front of a load balancing server.
+
+Reasoning
+---------
+A bug, or misdocumented feature, is causing NVP's throttling mechanism to act
+contrary to the way that it was documented to do so. During throttling, NVP is
+documented to respond with a 503 error and include a time-to-retry with the
+response. NVP does not appear to do so and responds with a generic 500 error
+instead. By preventing the traffic from overwhelming the service it may be
+possible to mitigate any failures caused by the undefined 500 errors. 
