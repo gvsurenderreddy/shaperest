@@ -1,8 +1,8 @@
 shaperest
 =========
 
-Shaperest (rhymes with Mt. Everest) is a general-purpose traffic shaping proxy
-service for new and preexisting RESTful services. 
+Shaperest (rhymes with Mt. Everest) is a RESTful service agnostic, layer-7
+traffic shaper.
 
 Shaperest intends to be developed in phases:
 
