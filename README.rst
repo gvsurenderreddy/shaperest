@@ -5,6 +5,7 @@ Shaperest (rhymes with Mt. Everest) is a general-purpose traffic shaping proxy
 service for new and preexisting RESTful services. 
 
 Shaperest intends to be developed in phases:
+
 1. A simple proxy server that will log and analyze traffic flows.
 2. A traffic shaping service that will introduce delays between requests to
    stabilize target services.
