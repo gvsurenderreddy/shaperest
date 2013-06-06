@@ -32,6 +32,9 @@ An incomplete list of alternatives to this project follows:
 
 Targetted Services and Status
 =============================
+Despite shaperest's goal to be completely service agnostic, it is typically
+necessary to have some purpose for a product prior to starting development. The
+list below describes the current services that shaperest intends on augmenting.
 
 Nicira NVP
 ~~~~~~~~~~
