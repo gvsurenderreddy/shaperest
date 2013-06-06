@@ -10,5 +10,6 @@ Shaperest intends to be developed in phases:
 2. A traffic shaping service that will introduce delays between requests to
    stabilize target services.
 3. A pluggable cache
+
    i. The cache plugin is service-aware and will be able to provide appropriate
       caching based on read/write analysis of requests.
