@@ -17,7 +17,11 @@ Shaperest intends to be developed in phases:
     - The service will first start as it was in phase 1, a simple proxy server,
       but will then switch into shaping mode as it detects errors from the
       hosted service (500 errors).
-3. A pluggable cache
+3. A pluggable platform
+
+    - The service will provide a platform so that extensions to the original
+      design may be produced and added as need arises.
+4. A cache plugin
 
     - The cache plugin is service-aware and will be able to provide appropriate
       caching based on read/write analysis of requests.
